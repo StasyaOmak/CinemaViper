@@ -5,6 +5,6 @@ import Foundation
 
 /// DTO-структура, представляющая язык, на котором говорят в фильме
 struct SpokenLanguageDTO: Codable {
-    /// Название языка, используемого в фильме
+    /// Язык
     let name: String
 }

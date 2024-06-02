@@ -1,0 +1,31 @@
+/* 
+  Localizable.strings
+  CinemaStar
+
+ Created by Anastasiya Omak on 02/06/2024.
+  
+*/
+
+"MoviesView.title.firstPart" = "Смотри исторические\nфильмы на ";
+"MoviesView.title.secondPart" = "CINEMA STAR";
+"Error.text" = "error";
+"DetailView.watchButton" = "Смотреть";
+"DetailView.alert.text" = "Ошибка";
+"DetailView.alert.message" = "Функционал в разработке";
+"DetailView.alert.ok" = "Ок";
+"DetailView.castSection" = "Актеры и съемочная группа";
+"DetailView.language" = "Язык";
+"DetailView.recommendedSection" = "Смотрите также";
+"NetworkService.HTTPHeader" = "X-API-KEY";
+"NetworkService.movieDetailURL" = "https://api.kinopoisk.dev/v1.4/movie/";
+"NetworkService.moviesURL" = "https://api.kinopoisk.dev/v1.4/movie/search?query=история";
+
+"backbutton" = "chevron.backward";
+"heartButtonFilled" = "heart.fill";
+"heartButtonRegular" = "heart";
+"chevronUP" = "chevron.up";
+"chevronDOWN" = "chevron.down";
+
+"KeychainToken" = "TokenKey";
+"token1" = "YTWNR4R-V9MM33F-MZDXDN5-MZKAD3D";
+"token2" = "YK5JXSC-Q4BMZ92-NXXTRQ0-HJD6DMC";

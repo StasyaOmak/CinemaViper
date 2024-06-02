@@ -4,36 +4,22 @@
 import Foundation
 import KeychainSwift
 
-/// Хранилище для токена
+/// Кейчен для работы с API ключом.
 class KeychainService {
-    // MARK: - Constants
+    static let shared = KeychainService()
 
-    enum Constants {
-        static let tokenKey = "TokenOne"
-        static let error = "Failed to load"
-    }
-
-    // MARK: - Public Properties
-
-    static let instance = KeychainService()
-
-    func getToken() -> String? {
-        if let token = keychain.get(Constants.tokenKey) {
-            return token
-        } else {
-            return nil
+    var token: String? {
+        get { keychain.get(S.keychainToken) }
+        set {
+            if let newValue = newValue {
+                keychain.set(newValue, forKey: S.keychainToken)
+            } else {
+                keychain.delete(S.keychainToken)
+            }
         }
     }
 
-    func setToken(token: String) {
-        keychain.set(token, forKey: Constants.tokenKey)
-    }
-
-    // MARK: - Private Properties
-
     private let keychain = KeychainSwift()
-
-    // MARK: - Initializers
 
     private init() {}
 }

@@ -3,8 +3,6 @@
 
 import Foundation
 
-// MARK: - Movie Data
-
 /// Структура, представляющая объект данных о фильме
 struct MovieDTO: Codable {
     /// Имя фильма
