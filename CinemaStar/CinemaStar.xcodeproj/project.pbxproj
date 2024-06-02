@@ -38,6 +38,9 @@
 		6FB89C302C0C6BF000E575D9 /* MovieActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB89C2F2C0C6BF000E575D9 /* MovieActor.swift */; };
 		6FB89C3F2C0C70BC00E575D9 /* MoviesInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB89C3E2C0C70BC00E575D9 /* MoviesInteractorTests.swift */; };
 		6FB89C412C0C70E500E575D9 /* MoviesDetailInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB89C402C0C70E500E575D9 /* MoviesDetailInteractorTests.swift */; };
+		6FB89C472C0D020100E575D9 /* MoviesSnapShotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FB89C462C0D020100E575D9 /* MoviesSnapShotTests.swift */; };
+		6FB89C4B2C0D027000E575D9 /* SnapshotTesting in Frameworks */ = {isa = PBXBuildFile; productRef = 6FB89C4A2C0D027000E575D9 /* SnapshotTesting */; };
+		6FB89C4F2C0D059F00E575D9 /* testShimmerView.1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FB89C4C2C0D059F00E575D9 /* testShimmerView.1.png */; };
 		6FE221302BDBCDE50063A598 /* MoviesDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE2212F2BDBCDE50063A598 /* MoviesDTO.swift */; };
 		6FE221322BDBCE020063A598 /* MovieDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE221312BDBCE020063A598 /* MovieDTO.swift */; };
 		6FE221342BDBCE200063A598 /* PosterDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE221332BDBCE200063A598 /* PosterDTO.swift */; };
@@ -91,6 +94,8 @@
 		6FB89C352C0C708B00E575D9 /* CinemaStarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CinemaStarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FB89C3E2C0C70BC00E575D9 /* MoviesInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesInteractorTests.swift; sourceTree = "<group>"; };
 		6FB89C402C0C70E500E575D9 /* MoviesDetailInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesDetailInteractorTests.swift; sourceTree = "<group>"; };
+		6FB89C462C0D020100E575D9 /* MoviesSnapShotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesSnapShotTests.swift; sourceTree = "<group>"; };
+		6FB89C4C2C0D059F00E575D9 /* testShimmerView.1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testShimmerView.1.png; sourceTree = "<group>"; };
 		6FE2212F2BDBCDE50063A598 /* MoviesDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesDTO.swift; sourceTree = "<group>"; };
 		6FE221312BDBCE020063A598 /* MovieDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDTO.swift; sourceTree = "<group>"; };
 		6FE221332BDBCE200063A598 /* PosterDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterDTO.swift; sourceTree = "<group>"; };
@@ -113,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FB89C4B2C0D027000E575D9 /* SnapshotTesting in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +169,7 @@
 				6F43426A2BD68BD70048C64B /* CinemaStar */,
 				6FB89C362C0C708B00E575D9 /* CinemaStarTests */,
 				6F4342692BD68BD70048C64B /* Products */,
+				6FB89C492C0D027000E575D9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -269,6 +276,8 @@
 			children = (
 				6FB89C3E2C0C70BC00E575D9 /* MoviesInteractorTests.swift */,
 				6FB89C402C0C70E500E575D9 /* MoviesDetailInteractorTests.swift */,
+				6FB89C462C0D020100E575D9 /* MoviesSnapShotTests.swift */,
+				6FB89C4E2C0D059F00E575D9 /* __Snapshots__ */,
 			);
 			path = CinemaStarTests;
 			sourceTree = "<group>";
@@ -293,6 +302,29 @@
 				6F0CC3C82C072B2B0026CD26 /* MoviesDetailView.swift */,
 			);
 			path = Viper;
+			sourceTree = "<group>";
+		};
+		6FB89C492C0D027000E575D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6FB89C4D2C0D059F00E575D9 /* MoviesSnapShotTests */ = {
+			isa = PBXGroup;
+			children = (
+				6FB89C4C2C0D059F00E575D9 /* testShimmerView.1.png */,
+			);
+			path = MoviesSnapShotTests;
+			sourceTree = "<group>";
+		};
+		6FB89C4E2C0D059F00E575D9 /* __Snapshots__ */ = {
+			isa = PBXGroup;
+			children = (
+				6FB89C4D2C0D059F00E575D9 /* MoviesSnapShotTests */,
+			);
+			path = __Snapshots__;
 			sourceTree = "<group>";
 		};
 		6FE220DE2BD7B50E0063A598 /* Extension */ = {
@@ -357,6 +389,9 @@
 				6FB89C3A2C0C708B00E575D9 /* PBXTargetDependency */,
 			);
 			name = CinemaStarTests;
+			packageProductDependencies = (
+				6FB89C4A2C0D027000E575D9 /* SnapshotTesting */,
+			);
 			productName = CinemaStarTests;
 			productReference = 6FB89C352C0C708B00E575D9 /* CinemaStarTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -391,6 +426,7 @@
 			mainGroup = 6F43425F2BD68BD70048C64B;
 			packageReferences = (
 				6F6E155F2BDD5222008F1776 /* XCRemoteSwiftPackageReference "keychain-swift" */,
+				6FB89C482C0D024800E575D9 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */,
 			);
 			productRefGroup = 6F4342692BD68BD70048C64B /* Products */;
 			projectDirPath = "";
@@ -417,6 +453,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FB89C4F2C0D059F00E575D9 /* testShimmerView.1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,6 +569,7 @@
 			files = (
 				6FB89C3F2C0C70BC00E575D9 /* MoviesInteractorTests.swift in Sources */,
 				6FB89C412C0C70E500E575D9 /* MoviesDetailInteractorTests.swift in Sources */,
+				6FB89C472C0D020100E575D9 /* MoviesSnapShotTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -809,6 +847,14 @@
 				minimumVersion = 24.0.0;
 			};
 		};
+		6FB89C482C0D024800E575D9 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.16.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -816,6 +862,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 6F6E155F2BDD5222008F1776 /* XCRemoteSwiftPackageReference "keychain-swift" */;
 			productName = KeychainSwift;
+		};
+		6FB89C4A2C0D027000E575D9 /* SnapshotTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6FB89C482C0D024800E575D9 /* XCRemoteSwiftPackageReference "swift-snapshot-testing" */;
+			productName = SnapshotTesting;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

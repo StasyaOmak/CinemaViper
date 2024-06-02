@@ -8,6 +8,12 @@ import XCTest
 
 // Mock Presenter
 class MockMoviesDetailPresenter: MoviesDetailPresenterProtocol {
+    func changeIsFavoriteState(_ isFavorite: Bool, id: Int) {}
+
+    func fetchIsFavoriteState(id: Int) -> Bool {
+        true
+    }
+
     func prepareMovieDetails(by id: Int, context: ModelContext) {}
 
     var didFetchMovieDetail = false
