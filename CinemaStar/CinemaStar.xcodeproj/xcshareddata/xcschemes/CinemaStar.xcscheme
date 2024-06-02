@@ -41,6 +41,17 @@
                ReferencedContainer = "container:CinemaStar.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6FB89C342C0C708B00E575D9"
+               BuildableName = "CinemaStarTests.xctest"
+               BlueprintName = "CinemaStarTests"
+               ReferencedContainer = "container:CinemaStar.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
